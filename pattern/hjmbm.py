@@ -1,0 +1,2 @@
+a='retfreh'
+a.isalpha()
