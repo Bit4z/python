@@ -1,0 +1,11 @@
+import sqlite3
+conn=sqlite3.connect("toutoria .db")
+c=conn.cursor()
+c.execute("CREATE TABLE l(name text,age integer,mobile_no integer)")
+c.execute("INSERT INTO l VALUES('vishan',30,953620)")
+c.execute("INSERT INTO l VALUES('ziyaulhaq',20,7060544392)")
+c.execute("INSERT INTO l VALUES('rishabh',60,798643012)")
+c.execute("SELECT *FROM l WHERE age<40")
+print(c.fetchall())
+conn.commit()
+conn.close()
