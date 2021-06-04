@@ -1,0 +1,8 @@
+tuple=()
+print(tuple)
+tuple=(1,2,3)
+print(tuple)
+tuple=("hello","good morning")
+print(tuple)
+tuple = ("mouse", [8, 4, 6], (1, 2, 3))
+print(tuple)

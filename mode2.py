@@ -1,0 +1,2 @@
+import mode
+mode.fun()
