@@ -1,0 +1,17 @@
+
+count=0
+c=0
+a=input("enter the string=")
+for i in (a):
+    count=count+1
+for i in (a):
+    b=a
+    for j in (a):
+        
+        
+        if(i==j):
+            c=c+1
+    print("the range of %c :%d"%(i,c))
+    c=0
+    
+print(count)

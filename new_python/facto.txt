@@ -1,0 +1,4 @@
+import fact
+n=int(input("enter the first value="))
+d=fact.fact(n)
+print("factorial=",d)

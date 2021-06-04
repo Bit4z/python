@@ -1,0 +1,6 @@
+import random
+a=random.randint(1,5)
+b=[100,200,300,400,500,600]
+print(a)
+c=random.choice(b)
+print(c)

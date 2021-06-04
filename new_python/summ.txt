@@ -1,0 +1,6 @@
+from calc import new python
+n=int(input("enter the first value="))
+m=int(input("enter the second value="))
+
+d=calc.sum(n,m)
+print("sum=",d)

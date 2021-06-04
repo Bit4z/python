@@ -1,0 +1,5 @@
+import xyz
+n=int(input("enter the first value="))
+m=int(input("enter the second value="))
+d=xyz.md(n,m)
+print("the sum of module=",d)

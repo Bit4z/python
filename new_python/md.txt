@@ -1,0 +1,7 @@
+import calc
+n=int(input("enter the first value="))
+m=int(input("enter the second value="))
+calc.sum(n,m)
+calc.sub(n,m)
+calc.mul(n,m)
+calc.div(n,m)

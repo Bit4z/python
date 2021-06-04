@@ -1,0 +1,5 @@
+import abc
+n=int(input("enter the first value="))
+m=int(input("enter the second value="))
+c=abc.fun(n,m)
+print("the sum of module")

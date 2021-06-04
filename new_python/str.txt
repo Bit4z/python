@@ -1,0 +1,37 @@
+
+str="zIYaulHaQ KhaN"
+a=str.upper()
+c=str.split()
+print("upper %s"%a)
+b=str.lower()
+print("str lower=%s"%b)
+print(c)
+#d=c.split()
+#list1=['this','is','a','gla','university']
+#k=list1.split()
+z=str.find('ha')
+print(z)
+str2='12345'
+s=str2.split()
+print(s)
+m=str.capitalize()
+print(m)
+v=str.count('a')
+print(v)
+h="hello"
+r=h.ljust(10,'*')
+print(r)
+student={}
+print(student)
+student.update({'name':'ziyaulhaq','last_name':'khan'})
+print(student)
+print(student.items())
+#
+print(student[1])
+list=["ziyaulhaq","khan",1,2,3,4,5.99]
+print(list)
+                
+                
+                
+
+

@@ -1,0 +1,3 @@
+from nat import *
+nat.natu(5)
+

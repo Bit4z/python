@@ -1,0 +1,8 @@
+n=int(input("enter the value="))
+while(n>=1):
+    if(n%2==0):
+        n=n/2
+if(n==1):
+    print("this is power of two")
+
+    
