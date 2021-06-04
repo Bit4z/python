@@ -1,0 +1,2 @@
+from array import new_python
+print("module sum=",sum)

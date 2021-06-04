@@ -1,0 +1,2 @@
+from sadi import module
+sadi.sad()
